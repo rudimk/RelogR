@@ -8,4 +8,8 @@ setup(name='relogr',
     author_email='rudraksh.mk@gmail.com',
     license='MIT',
     packages=['relogr'],
+    install_requires=[
+        'rethinkdb',
+        'arrow',
+    ],
     zip_safe=False)
