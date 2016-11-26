@@ -1,1 +1,1 @@
-from .main import RelogR
+from .main import LogIt
