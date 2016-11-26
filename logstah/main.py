@@ -2,7 +2,7 @@ import rethinkdb as r
 import arrow as a
 import collections
 
-class LogIt(object):
+class Logstah(object):
     # Store config info as class attributes.
     rethinkdb_host = None
     rethinkdb_port = None
