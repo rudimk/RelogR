@@ -1,6 +1,6 @@
 from setuptools import setup
 
-setup(name='relogr',    
+setup(name='logit',    
     version='0.1',
     description='A generic logger with RethinkDB as the primary logstore.',
     url='https://github.com/rudimk/relogr',
