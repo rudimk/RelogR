@@ -22,7 +22,7 @@ class RelogR(object):
     # Log an incoming message with the current timestamp in the relogr_logs table in a special RethinkDB database called relogr.
     def log(self, message):
         timestamp = a.now().to(self.timezone).format(self.timestamp_format)
-        r.connect(rethinkdb_host, rethinkdb_port).repl()
+        r.connect(self.rethinkdb_host, self.rethinkdb_port).repl()
         payload = collections.OrderedDict()
         payload['timestamp'] = timestamp
         payload['message'] = message
